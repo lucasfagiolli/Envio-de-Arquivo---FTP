@@ -8,11 +8,12 @@ Uso
 
 Para usar este script, siga as etapas abaixo:
 
-    Abra o script em um editor de texto.
-    Modifique as variáveis server, username, password e port para corresponder às configurações do servidor FTP para o qual você deseja enviar o arquivo.
-    Modifique a variável file para o nome do arquivo que você deseja enviar.
-    Salve o arquivo.
-    Execute o script usando o seguinte comando: ./script.sh
+   1. Abra o script em um editor de texto.
+   2. Modifique as variáveis server, username, password e port para corresponder às configurações do servidor FTP para o qual você deseja enviar o arquivo.
+   3. Modifique a variável file para o nome do arquivo que você deseja enviar.
+   4. Salve o arquivo.
+   5, De permissão: chmod +x script.sh
+   6. Execute o script usando o seguinte comando: ./script.sh
 
 Variáveis
 
